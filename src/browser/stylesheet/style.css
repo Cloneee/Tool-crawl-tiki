@@ -1,0 +1,37 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #36393f;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #303030;
+  padding: 1rem 1rem 1rem !important
+}
+
+nav{
+    -webkit-app-region: drag
+}
+
+label{
+    color: white !important
+}
+
+input, select, textarea{
+    background-color: #40444b !important;
+    border: 1px !important;
+    color: white !important
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    opacity: 0.5 !important; /* Firefox */
+  }

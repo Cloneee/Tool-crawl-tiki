@@ -1,0 +1,19 @@
+{
+  "name": "tool-crawl-tiki",
+  "version": "0.0.1",
+  "description": "Crawl the database from tiki then save to our db",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron ./src/main.js"
+  },
+  "author": "Huy",
+  "license": "ISC",
+  "dependencies": {
+    "cross-fetch": "^3.1.4",
+    "mongoose": "^6.0.5",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "electron": "^14.0.0"
+  }
+}
